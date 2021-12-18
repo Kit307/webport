@@ -1,0 +1,65 @@
+.bg1 {
+  background: #f0af49;
+}
+.font {
+  font-family: "Gemunu Libre", sans-serif;
+}
+.textshadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.shadow {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.card-img-top1 {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.showborder {
+  border: 3px solid blue;
+}
+.img2 {
+  border-radius: 10px;
+}
+
+.showcase-img {
+  background-size: cover;
+  
+  min-height: 30rem;
+  border-radius: 10px;
+}
+
+.showcase-text {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.aaaaa {
+  background-image: linear-gradient(
+    to left top,
+    #ffb91a,
+    #ff9739,
+    #ff735c,
+    #ff5681,
+    #ff4aa6,
+    #e64cb7,
+    #c851c5,
+    #a458cf,
+    #8358c8,
+    #6156be,
+    #3d53b2,
+    #004ea3
+  );
+}
+@media screen and (max-width: 425px) {
+  .showcase-text {
+    padding: 2rem;
+  }
+  .showcase-img {
+    background-size: cover;
+    
+    min-height: 10rem;
+    /* filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25)); */
+  }
+}
